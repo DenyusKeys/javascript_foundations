@@ -10,12 +10,13 @@
     <script>
         let x = prompt("enter a string");
         
-        function captitalize(x){
+        function captitalizeLast(x){
             let y = x.charAt(x.length - 1).toUpperCase();
-            return y;
+            let z = x.substring(0, x.length - 1);
+            return z + y;
         }
          
-        alert(captitalize(x));
+        alert(captitalizeLast(x));
         
         
     </script>
