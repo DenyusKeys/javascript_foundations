@@ -8,9 +8,14 @@
 <body>
     
     <script>
-        let name = "DeNyus"
-        let newName = name.replace("DeNyus","Mahiba")
-        alert(name.slice(1,3))
+        let x = prompt("enter a string");
+        
+        function captitalize(x){
+            let y = x.charAt(x.length - 1).toUpperCase();
+            return y;
+        }
+         
+        alert(captitalize(x));
         
         
     </script>
